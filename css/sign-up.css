@@ -130,13 +130,13 @@ button:hover {
 
 
 /*two first form fields*/
-.col-1:first-child {
+.col:first-child {
     margin-left: 0;
 }
-.spanx {
+.span {
     width:49.7%;
 }
-.col-1 {
+.col {
     display: block;
     float: left;
     margin:0 0 0 0.6%;
