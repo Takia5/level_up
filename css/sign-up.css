@@ -160,12 +160,16 @@ button:hover {
     margin-top: 60px;
 }
 
-    .top {margin-bottom: 20px;
-        }
-        .top svg{margin-bottom: 20px;
-        text-align: center;
-        vertical-align: middle;
-        padding: 30px 0 0 120px;}
+.top {
+   margin-bottom: 20px; 
+   text-align: center;
+   vertical-align: middle;
+}
+
+.top svg{
+	margin-bottom: 20px;
+    padding: 30px 0 0 120px;
+}
 
         .flex-container > div:first-child {
  
@@ -349,7 +353,7 @@ button:hover {
     }
     .container {
    padding: 16px 510px;
-   
+  
     }
     input[type=text], input[type=tel], input[type=password], input[type=email] {
         width: 100%;
@@ -358,14 +362,14 @@ button:hover {
  
  float: left;
  
-  width: 100px;
+  width: 22%;
   margin-left: 0;
  
  
 }
 .flex-container > div:last-child {
 
-  width: 300px;
+  width: 78%;
  
  float: right;
  
@@ -377,6 +381,7 @@ button:hover {
     }
     .container {
    padding: 16px 510px;
+   
   
     }
     input[type=text], input[type=tel], input[type=password], input[type=email] {
@@ -386,14 +391,14 @@ button:hover {
  
  float: left;
  
-  width: 100px;
+  width: 18%;
   margin-left: 0;
  
  
 }
 .flex-container > div:last-child {
 
-  width: 300px;
+  width: 82%;
  
  float: right;
  
