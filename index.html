@@ -1,57 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/sign-up.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" type="text/css" href="css/sign-up.css">
 </head>
 <body>
-	<div class="top"><img src="images/top-color.png" style="width:100%; max-height:20px;"></div>
-	<div class="logo"><img src="images/logo/logo.png" style="max-width: 80px; max-height:80px;"></div>
 
-	<!--Section start-->
-	<section>
-		<h2>Sign Up to Ride</h2>
-			<p>
-				Safe, reliable rides in minutes
-			</p>
-<form>
-	<div class=row>
-		<div class="column">
-			<input type="text" name="first_name" placeholder="First name">
-		</div>
-		<div class="column">
-			<input type="text" name="last_name" placeholder="Last name">
-		</div>
-	</div>
-	<div class=row>
-		
-			<input type="number" name="phone" placeholder="Phone number">
-		
-	</div>
-	<div class=row>
-		
-			<input type="email" name="email" placeholder="Email">
-		
-	</div>
-	<div class=row>
-		
-			<input type="password" name="password" placeholder="Password">
-		
-	</div>
+<div class="top" style="text-align: center;">
+    <svg>
+  <rect width="80" height="80" />
+<text fill="#ffffff" font-size="25" x="9" y="40" font-weight="600">UBER</text>
+</svg></div>
+    
 
-	<a href="#">Add a promo code</a>
 
-<div class="row">
-	<button type="submit" name="submit" class="button">SIGN UP</button>
+<form action="" method="post">
+  <div class="container">
+    <div class="heading">
+    <h1>Sign Up to Ride</h1>
+    <p>Safe, reliable rides in minutes</p>
+    </div>
+
+    <div class="row">
+        <div class="col-1 spanx">
+        <label for="first-name">First name (required)</label>
+        <input type="text" name="first-name" placeholder="First name">
+        </div>
+        <div class="col-1 spanx">
+            <label for="last-name">Last name (required)</label>
+            <input type="text" name="last-name" placeholder="Last name">
+        </div>
+    </div>
+    <label for="phone">Enter your phone number (required)</label>
+    <div class="flex-container">
+      <div>
+    
+    <select name="countrylist" dir="rtl">
+  <option value="+256 Uganda">+256 Uganda</option>
+  <option value="+255 Tanzania">+255 Tanzania</option>
+  <option value="+254 Kenya">+254 Kenya</option>
+  <option value="+253 Djibouti">+253 Djibouti</option>
+</select>
 </div>
-	
-	<p class="caption" style="font-size: 12px !important;">By clicking "Sign Up", you agree to Uber's <a href="#">Terms of Use</a> and acknowledge you have read the <a href="#">Privacy Policy</a>.</p>
+<div>
+    
+     <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+   </div>
+   </div>
 
+    <label for="email">Enter your email (required)</label>
+    <input type="email" placeholder="Email" name="email" value="Email" required>
+
+    <label></label>
+    <label for="password">Enter a password (required)</label>
+    <input type="password" placeholder="Password" name="password" required>
+
+        
+        
+   <a href="">Add a promo code</a>
+
+    <div class="clearfix">
+      
+      <button type="submit" class="buton">Sign Up</button>
+       <p>By clicking "Sign Up", you agree to Uber's <a href="#" >Terms Of Use</a> and acknowledge you have read the <a href="#" >privacy policy</a>.</p>
+    </div>
+  </div>
 </form>
-</section>
-<!--End Section-->
 
 </body>
 </html>
