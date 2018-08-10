@@ -6,6 +6,10 @@ font-family: ff-clan-web-pro, "Helvetica Neue", Helvetica, Arial, sans-serif; ba
     background: rgba(0, 0, 0, 0) url("../images/1477347860-pattern.png") repeat scroll center center;
     height: 42px;
     background-size: 60px 60px;
+<<<<<<< HEAD
+    text-align:center !important;
+=======
+>>>>>>> 7c303fa768ff763fb8d9dd537d5d960caefd28c6
   
 }
 .top svg{
@@ -13,6 +17,15 @@ font-family: ff-clan-web-pro, "Helvetica Neue", Helvetica, Arial, sans-serif; ba
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+.top rect{
+	width:80px;
+	height:80px;
+}
+
+
+=======
+>>>>>>> 7c303fa768ff763fb8d9dd537d5d960caefd28c6
 .container {
     padding: 16px 700px;
     
@@ -34,6 +47,7 @@ font-family: ff-clan-web-pro, "Helvetica Neue", Helvetica, Arial, sans-serif; ba
     font-size: 20px;
  
     
+<<<<<<< HEAD
 }
 
 /*styling paragraphs and links*/
@@ -77,9 +91,203 @@ label {
   margin-left: 0;
  
  
+=======
+}
+
+/*styling paragraphs and links*/
+
+p {
+    font-size: 10px;
+    
+>>>>>>> 7c303fa768ff763fb8d9dd537d5d960caefd28c6
 }
 .flex-container > div:last-child {
 
+<<<<<<< HEAD
+  width: 83%;
+ 
+ float: right;
+ 
+}
+
+/* styling the input fields */
+input[type=text], input[type=tel], input[type=password], input[type=email], select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid rgb(229, 229, 228) ;
+}
+
+input[type=text]:focus, input[type=tel]:focus, input[type=password], input[type=email], select:focus {
+    background-color: #ffffff;
+    outline: none;
+    border: 1px solid #11939a;
+}
+
+
+
+/* button styles*/
+button {
+    background-color: #11939a;
+    color: white;
+    padding: 15px 26px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+=======
+p a{
+    color: rgb(17, 147, 154);
+    text-decoration: none;
+    font-size: 10px;
+
+}
+ a{
+    color: rgb(17, 147, 154);
+    text-decoration: none;
+    font-size: 12px;
+    }
+label {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+ 
+ 
+    
+}
+
+.flex-container > div:first-child {
+ 
+ float: left;
+ 
+  width: 17%;
+  margin-left: 0;
+ 
+ 
+>>>>>>> 7c303fa768ff763fb8d9dd537d5d960caefd28c6
+}
+.flex-container > div:last-child {
+
+<<<<<<< HEAD
+button:hover {
+    opacity:1;
+}
+
+.buton {
+  width: 100%;
+}
+
+
+
+/*two first form fields*/
+.col:first-child {
+    margin-left: 0;
+}
+.span {
+    width:49.7%;
+}
+.col {
+    display: block;
+    float: left;
+    margin:0 0 0 0.6%;
+}
+
+
+
+/* media queries for responsiveness */
+@media screen and (max-width: 359px){
+    .buton {
+       width: 100%;
+    }
+     .container {
+   padding: 5px 20px;
+    }
+   
+    input[type=text], input[type=tel], input[type=password], input[type=email] {
+        width: 100%;
+    }
+.heading {
+    margin-top: 60px;
+}
+
+.top {
+   margin-bottom: 20px; 
+   text-align: center;
+   vertical-align: middle;
+}
+
+.top svg{
+	margin-bottom: 20px;
+    padding: 30px 0 0 120px;
+}
+
+        .flex-container > div:first-child {
+ 
+ float: left;
+ 
+  width: 145px;
+  margin-left: 0;
+ 
+ 
+}
+.flex-container > div:last-child {
+
+  width: 300px;
+ 
+ float: right;
+ 
+}
+}
+@media screen and (min-width: 360px) and (max-width: 479px) {
+    .buton {
+       width: 100%;
+    }
+     .container {
+   padding: 5px 20px;
+    }
+   
+    input[type=text], input[type=tel], input[type=password], input[type=email] {
+        width: 100%;
+    }
+    .heading {
+    margin-top: 60px;
+}
+    .top {margin-bottom: 20px;
+        }
+        .top svg{margin-bottom: 20px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 30px 0 0 140px;}
+
+         .flex-container > div:first-child {
+ 
+ float: left;
+ 
+  width: 120px;
+  margin-left: 0;
+ 
+ 
+}
+.flex-container > div:last-child {
+
+  width: 300px;
+ 
+ float: right;
+ 
+}
+=======
   width: 83%;
  
  float: right;
@@ -225,6 +433,7 @@ button:hover {
  float: right;
  
 }
+>>>>>>> 7c303fa768ff763fb8d9dd537d5d960caefd28c6
 }
 
 
@@ -362,6 +571,20 @@ button:hover {
  
  float: left;
  
+<<<<<<< HEAD
+  width: 27%;
+  margin-left: 0;
+ 
+ 
+}
+.flex-container > div:last-child {
+
+  width: 73%;
+ 
+ float: right;
+ 
+}
+=======
   width: 22%;
   margin-left: 0;
  
@@ -374,6 +597,7 @@ button:hover {
  float: right;
  
 }
+>>>>>>> 7c303fa768ff763fb8d9dd537d5d960caefd28c6
 }
 @media screen and (min-width: 1422px) and (max-width: 1600px){
     .buton {
@@ -381,6 +605,10 @@ button:hover {
     }
     .container {
    padding: 16px 510px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7c303fa768ff763fb8d9dd537d5d960caefd28c6
    
   
     }
