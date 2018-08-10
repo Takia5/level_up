@@ -1,103 +1,73 @@
+
 class SignUp:
-    def __init__(self):
-        self.f_name = self.add_first_name()
-        self.l_name = self.add_last_name()
-        self.tel = self.add_tel()
-        self.email = self.add_email()
-        self.password = self.add_password()
-        
-        
-    def add_first_name(self):
-       
+    name = "str"
+    email = "email"
+    tel = 345234
+    password="qweqwe"
+
+    def set_firstName(self, first_name):
         while True:
               try:
-                  fName = input('Enter your first name')
+                  self.name=first_name
+                 
               except ValueError:
                   print("Sorry!")
                   continue
 
-              if not fName:
+              if not self.name:
                   print("Sorry, you must enter your first name!")
                   continue
-              elif not fName.isalpha():                
+              elif not self.name.isalpha():                
                   print ("Please enter a valid name!")
                   continue
               else:
                   break
-                              
-        return fName.capitalize()
+        return self.name
 
-    def add_last_name(self):
-       
-        while True:
+    def set_lastName(self, last_name):
+
+         while True:
               try:
-                  lName = input('Enter your last name')
+                  self.name=last_name
+                 
               except ValueError:
                   print("Sorry!")
                   continue
 
-              if not lName:
-                  print("Sorry!")
+              if not self.name:
+                  print("Sorry, you must enter your last name!")
                   continue
-              elif not lName.isalpha():                
+              elif not self.name.isalpha():                
                   print ("Please enter a valid name!")
                   continue
               else:
                   break
-        return lName
-
-    def add_tel(self):
         
-        while True:
-              try:
-                  telephone = input('Enter your phone number')
-              except ValueError:
-                  print("Sorry!")
-                  continue
+         return self.name
 
-              if not telephone:
-                  print("Sorry, enter a valid a valid telephone number!")
-                  continue
-              
-              else:
-                  break
-        return telephone
-
-    def add_email(self):
-       
-        while True:
-              try:
-                   email = input('Enter your email')
-              except ValueError:
-                  print("Sorry!")
-                  continue
-
-              if not email:
-                  print("Sorry, you must enter your email!")
-                  continue
-              else:
-                  break
-        return email
-
-    def add_password(self):
+    def set_phoneNumber(self, tel):
+        self.tel= tel
+        return self.tel
         
-        while True:
-              try:
-                   pswd = input('Enter your password')
-              except ValueError:
-                  print("Sorry!")
-                  continue
+    def set_email(self, email):
+        self.email= email
+        return self.email
 
-              if not pswd:
-                  print("Sorry, you must enter your password!")
-                  continue
-              else:
-                  break
-        return pswd
-       
+    def set_password(self, pswd):
+        self.password= pswd
+        return self.password
 
-    def sign_up(self):
-        print("You have successfully registered!")
+    def get_name(self):
+        print(self.name)
+        print(sign_up.name)
 
-sign = SignUp()
-sign.sign_up()
+
+if __name__ == '__main__':
+    sign_up = SignUp()
+    print(sign_up.set_firstName(input("Enter your first name: ")))
+    print(sign_up.set_lastName(input("Enter your last name: ")))
+    print(sign_up.set_phoneNumber(input("Enter your Telephone Number: ")))
+    print(sign_up.set_email(input("Enter your email: ")))
+    print(sign_up.set_password(input("Enter your password: ")))
+    print ("You have registered successfully!")
+    #print('User associated with id 0 is ', person.get_name(0))
